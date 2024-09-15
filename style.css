@@ -11,4 +11,15 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 3.7rem;
+}
+:root{
+    --gray-800: #1e293b;
+}
+main{
+    padding-inline: 1.5rem;
+}
+.descricao h1{
+    color: var(--gray-800);
+    margin-bottom: 1rem;
 }
