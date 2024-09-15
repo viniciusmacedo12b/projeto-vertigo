@@ -20,6 +20,7 @@ header{
     --gray-200: #e2e8f0;
     --gray-400: #94a3b8;
     --white: #fff;
+    --light-purple: #9f67ff;
 }
 main{
     padding-inline: 1.5rem;
@@ -96,7 +97,11 @@ color: var(--gray-600);
 font-weight: 700;
 font-size: 1rem;
 }
-
+.login button:hover{
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor: pointer;
+        }
 @media(min-width: 1000px) {
     header{
         background: none;
@@ -118,9 +123,19 @@ font-size: 1rem;
     }
     .conteudo{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .pg-desktop{
         display: block;
         width: 100%;
     }
+    .descricao h1{
+        font-size: 2.25rem;
+    }
+    .descricao p{
+        font-size: 1rem;
+    }
+    
 }
